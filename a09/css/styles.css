@@ -1,0 +1,105 @@
+/*----------------------------------------------------------------
+Jazzmyr Fowler ---------------------------------------------------
+03/18/2017 -------------------------------------------------------
+http://chelan.highline.edu/~jum0ng91/215/assignments/a09/index.php
+Assignment 09 AJAX -----------------------------------------------
+------------------------------------------------------------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.product {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    margin-left: 5rem;
+}
+
+.goBack {
+    display: block;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1.5rem;
+    box-shadow: 0 .1rem .7rem #d3d3d3;
+    border-radius: 1rem;
+    background-color: lightgray;
+}
+
+label {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+input[type="text"] {
+    display: block;
+    width: 95%;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: .6rem;
+}
+
+input[type="text"]:focus {
+    border: .1rem solid burlywood;
+    box-shadow: inset 0 .1rem .7rem #d3d3d3;
+}
+
+button {
+    text-transform: uppercase;
+    padding: .3rem;
+}
+
+button:hover {
+    background-color: burlywood;
+    transform: scale(1.05);
+    transition: ease-in-out .98s;
+    cursor: pointer;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, .5);
+}
+
+/*------------
+  TABLE STYLES
+  ------------*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+th {
+    padding: .5rem;
+    text-transform: uppercase;
+    background-color: darkgray;
+}
+
+tr, td {
+    padding: .3rem;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.name {
+    font-weight:bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}

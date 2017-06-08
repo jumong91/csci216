@@ -1,0 +1,73 @@
+/*----------------------------------------------------------------
+Jazzmyr Fowler ---------------------------------------------------
+03/03/2017 -------------------------------------------------------
+http://chelan.highline.edu/~jum0ng91/215/assignments/a07/index.php
+Assignment 07 OOP ------------------------------------------------
+------------------------------------------------------------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.product {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button {
+    text-transform: uppercase;
+    padding: .3rem;
+}
+
+button:hover {
+    background-color: burlywood;
+    transform: scale(1.1);
+    transition: ease-in-out .98s;
+    cursor: pointer;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, .5);
+}
+
+/*------------
+  TABLE STYLES
+  ------------*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    padding: .5rem;
+    text-transform: uppercase;
+}
+
+th:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr, td {
+    padding: .3rem;
+    text-align: center;
+}
+
+td:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.name {
+    font-weight:bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}

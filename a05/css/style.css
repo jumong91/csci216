@@ -1,0 +1,114 @@
+/*----------------------------------------------------------------
+Jazzmyr Fowler ---------------------------------------------------
+02/18/2017 -------------------------------------------------------
+http://chelan.highline.edu/~jum0ng91/215/assignments/a05/index.php
+Assignment 5 Personality Test ------------------------------------
+------------------------------------------------------------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.summary form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1.5rem;
+    box-shadow: 0 .1rem .7rem #d3d3d3;
+    border-radius: 1rem;
+    background-color: lightgray;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: .6rem;
+}
+
+input.price {
+    width: 15%;
+}
+
+select {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    height: 10rem;
+    border-radius: .6rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border: .1rem solid burlywood;
+    box-shadow: inset 0 .1rem .7rem #d3d3d3;
+}
+
+input[type="submit"],
+button {
+    border: none;
+    font-family: 'Oleo Script', cursive, futura, sans-serif;
+    text-transform: uppercase;
+    margin-right: 1.2rem;
+    width: 20%;
+    height: 1.7rem;
+    background-color: #a9a9a9;
+    border-radius: .4rem;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: burlywood;
+    transform: scale(1.1);
+    transition: ease-in-out .98s;
+    cursor: pointer;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, .5);
+}
+
+input.edit {
+    border: none;
+    width: 100%;
+}
+
+/*-----------
+  TABLE STYLE
+  -----------*/
+
+th {
+    background-color: #fff;
+    padding: .3rem;
+}
+
+tr, td {
+    padding: .3rem;
+}
+
+tr {
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
